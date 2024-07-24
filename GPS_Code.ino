@@ -15,6 +15,14 @@ SoftwareSerial softSerial(RXPin, TXPin);
 
 
 // WiFi parameters
+#define WLAN_SSID       "Sewmina"
+#define WLAN_PASS       "Ranawaka2001"
+
+// Adafruit IO
+#define AIO_SERVER      "io.adafruit.com"
+#define AIO_SERVERPORT  1883
+#define AIO_USERNAME    "gw2001"
+#define AIO_KEY         "aio_urnw36J4L5uXJNAHOBvpRDN159IJ"
 
 WiFiClient client;
 // Setup the MQTT client class by passing in the WiFi client and MQTT server and login details.
